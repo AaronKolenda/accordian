@@ -44,11 +44,11 @@ $(document).on("ready", function(){
 	var borderReset = function() {
 
 		$header1.css("border-top", "none");
-		$header2.css("border-top", "none");
-		$header3.css("border-top", "none");
+		$header2.css("border-bottom", "none");
+		$header3.css("border-bottom", "none");
 		$header1.css("border-bottom", "1px solid black");
-		$header2.css("border-bottom", "1px solid black");
-		$header3.css("border-bottom", "1px solid black");
+		$header2.css("border-top", "1px solid black");
+		$header3.css("border-top", "1px solid black");
 
 		
 
@@ -56,18 +56,21 @@ $(document).on("ready", function(){
 			$header1.css("border-top", "none");
 			$header2.css("border-top", "1px solid black");
 			$header3.css("border-bottom", "none");
-			$header3.css("border-top", "none");
+			$header3.css("border-top", "1px solid black");
 		}
 
 		if ($section2.hasClass("full") === true) {
 			$header1.css("border-top", "none");
 			$header1.css("border-bottom", "1px solid black");
+			$header2.css("border-top", "none");
+			$header2.css("border-bottom", "1px solid black");
 			$header3.css("border-top", "1px solid black");
 			$header3.css("border-bottom", "none");
 		}
 
 		if ($section3.hasClass("full") === true) {
-			$header3.css("border-top", "none");
+			$header3.css("border-top", "1px solid black");
+			$header3.css("border-bottom", "1px solid black");
 			$header2.css("border-top", "none");
 			$header2.css("border-top", "none");
 		}

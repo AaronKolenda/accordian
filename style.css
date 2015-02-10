@@ -21,15 +21,16 @@
 }
 
 #header2 {
-	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 }
 
 #header3 {
-	border-bottom: 01px solid black;
+	border-top: 01px solid black;
 }
 
 .full {
 	height: 250px;
+	transition: height 2s ease;
 }
 
 .header3 {
