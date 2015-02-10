@@ -12,9 +12,20 @@
 	background-color: lightgrey;
 	height: 25px;
 	padding: 5px;
-	border: 1px solid black;
 	width: 100%;
 	box-sizing: border-box;
+}
+
+#header1 {
+	border-bottom: 1px solid black;
+}
+
+#header2 {
+	border-bottom: 1px solid black;
+}
+
+#header3 {
+	border-bottom: 01px solid black;
 }
 
 .full {
@@ -24,4 +35,14 @@
 .header3 {
 	position: absolute;
 	bottom: 0px;
+}
+
+.full p {
+	display: block;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+}
+
+p {
+	display: none;
 }
